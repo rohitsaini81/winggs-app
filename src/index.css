@@ -21,3 +21,24 @@ img{
 .flex{
   display: flex;
 }
+
+.playfair-display{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+.f-coulmn{
+  flex-direction: column;
+}
+
+.yellow{
+  background-color: #ff9600;
+  color: white;
+}
+.gray{
+  color: #777;
+}
+.gray02{
+  color: #332929;
+}

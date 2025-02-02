@@ -1,8 +1,11 @@
 .logo {
     width: 50vw;
-    height: 100px;
     padding-left: 40px;
 }
+.whitenav{
+    background-color: #fff !important;
+    box-shadow: 0 7px 10px #00000021;
+  }
 
 .logo>img {
     height: 50px;
@@ -10,7 +13,6 @@
 }
 
 .m-auto {
-    height: 100px;
     display: block;
     /* margin-top: 20px; */
     margin: 20px 14px;
@@ -42,4 +44,7 @@
     font-family: inherit;
     line-height: inherit;
     font-style: normal;
+
+    font-family: common-ligatures,serif;
+    font-variant-ligatures: common-ligatures;
 }

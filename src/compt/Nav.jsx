@@ -3,7 +3,7 @@ import './css/Nav.css'
 import LOGO from './Images'
 export default function Nav() {
   return (
-    <div className='just-flex navbar'>
+    <div className='just-flex navbar whitenav'>
     <div className='logo flex-left' style={{marginLeft:10}}><a href="/"><img src={LOGO} style={{height:50,width:50}} alt="LOGO" /></a>
     </div>
       <ul className='just-flex p-1 w-half'>
