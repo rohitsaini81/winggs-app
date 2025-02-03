@@ -1,3 +1,4 @@
+import Footer from "./compt/Footer"
 import Highilights, { Highilight2 } from "./compt/Highilights"
 import Home, { HomeFooter } from "./compt/Home"
 import Nav from "./compt/Nav"
@@ -14,6 +15,9 @@ function App() {
     <Highilights />
     <Services />
     <Highilight2 />
+
+    <hr />
+    <Footer />
     </>
   )
 }
