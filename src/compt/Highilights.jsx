@@ -1,5 +1,5 @@
 import React from 'react'
-import { Highlight } from './Images'
+import { Highlight,Highlightimage2 } from './Images'
 import "./css/Highilights.css"
 export default function Highilights() {
     return (
@@ -60,4 +60,15 @@ function Discription002() {
     )
 }
 
+
+
+function Highilight2() {
+  return (
+    <div className='f-size'>
+      <img src={Highlightimage2} alt="wait"/>
+    </div>
+  )
+}
+
+export  {Highilight2}
 
